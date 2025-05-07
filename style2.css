@@ -1,0 +1,56 @@
+:root{
+    --primary-color: #06306a;
+    --second-color: #fff;
+    --padding: 20px;
+}
+h1{
+    background-color: var(--primary-color);
+    color: var(--second-color);
+    padding: var(--padding);
+}
+:root{
+    --primary-color: #06306a;
+    --secondary-color: #ffc0cb;
+    --padding: 10px
+}
+p{
+    background-color: var(--primary-color);
+    color: var(--second-color);
+    padding: var(--padding);
+}
+#example1{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background: #bada55;
+
+}
+#example2{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px ;
+    border: 3px solid #bada55;
+}
+#example3{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px 60px 5px ;
+    background: #bada55;
+}
+#example4{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px/30px ;
+    background: #bada55;
+}
+#example5{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px 60px 5px ;
+    background: #bada55;
+}
